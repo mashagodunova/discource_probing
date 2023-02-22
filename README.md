@@ -3,3 +3,7 @@
 код, подготавливающий файл conllu для задания "Predicting annotated discourse relations among sentences"
 ##### so.py
 код, подготавливающий файл conllu для заданий типа "Порядок предложений"
+##### ru-output.tsv 
+пример полученного файла для русского языка в результате предобработки для задания "Predicting annotated discourse relations among sentences"
+##### ru-sent_ordering.tsv
+пример полученного файла для русского языка в результате предобработки для заданий типа "Порядок предложений"
