@@ -4,7 +4,9 @@ In our study we tried to accumulate all kinds of tasks used for discourse probin
 - XLM-RoBERTa (base-sized model) 
 - Multilingual GPT model 
 - mT5 model 
+
 The tasks we have compiled for different models have already been used in other probing studies. At the same time, we tried to make a collection of tasks from different previous works in order to compare the results obtained and identify new problems in the assimilation of the text discourse by neural networks. We are also interested in how differently the models perform depending on the language in which the text is written.
+
 We frame almost all presented tasks as binary classification problems, but they involve different aspects of Rhetorical Structure Theory, models’ understanding of which is being tested in this study. The peculiarity of our work is that we test multilingual, rather than basic, models on the corresponding data for ten languages, exploring only modern pre-trained transformer models.
 #### Sentence Position 
 We decided to take 5-sentence sequences for our dataset and swap the fourth of them with the other randomly chosen sentence in a sequence. This method was partly proposed by our predecessors, and, although in the described article researchers swap the forth sentence with the first one, we decided not to swap fixed elements of a text, and choose one of them randomly, so we complicated the task, because usually models demonstrate high results in this test. 
